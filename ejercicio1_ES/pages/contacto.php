@@ -4,16 +4,16 @@ include("../includes/header.php");
 <body>
 <main>
     <div>
-        <h1>Sobre mí</h1>
-        <p>Soy un estudiante de Desarrollo de Aplicaciones Web (DAW) con una gran motivación y entusiasmo por el sector tecnológico.
-            Busco activamente oportunidades para aplicar y expandir mis conocimientos en programación, diseño web y bases de datos.
-            Tengo ganas de aprender y trabajar, y estoy comprometido a aportar valor a un equipo con una mentalidad proactiva y orientada a la resolución de problemas
+        <h1>Contacto</h1>
+        <div class="contact">
+
+        </div>
+        <p>
         </p>
     </div>
 </main>
 <?php include("../includes/footer.php") ?>
 </body>
-
 <style>
     body{
         background-color: #343477;
@@ -31,4 +31,5 @@ include("../includes/header.php");
         margin:auto;
         padding:2%;
     }
+
 </style>

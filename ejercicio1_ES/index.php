@@ -1,6 +1,6 @@
-<?php global $edad1;
-include("../includes/header.php");
-include("../config/config.php");
+<?php global $edad1, $nombre, $ciudad, $edad, $fecha, $hora;
+include("./includes/header.php");
+include("./config/config.php");
 ?>
 <body>
     <main>
@@ -12,7 +12,7 @@ include("../config/config.php");
             <p>Hora: <?php echo $hora?></p>
         </div>
     </main>
-    <?php include("../includes/footer.php") ?>
+    <?php include("./includes/footer.php") ?>
 </body>
 
 <style>
@@ -28,9 +28,9 @@ include("../config/config.php");
        border-radius: 15px;
        background-color: rgba(213, 213, 243, 0.85);
        text-align: center;
-       width: 30%;
+       width: 40%;
        margin:auto;
-       padding:2% 0;
+       padding:2%;
    }
 </style>
 
