@@ -19,16 +19,19 @@ include("./config/config.php");
     body{
         background-color: #343477;
     }
-    main{
+    main {
         display: flex;
         align-items: center;
-        height: 100vh;
+        min-height: 80vh;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px 0;
     }
    div{
        border-radius: 15px;
        background-color: rgba(213, 213, 243, 0.85);
        text-align: center;
-       width: 40%;
+       width: 60%;
        margin:auto;
        padding:2%;
    }

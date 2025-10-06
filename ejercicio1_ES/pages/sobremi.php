@@ -21,13 +21,13 @@ include("../includes/header.php");
     main{
         display: flex;
         align-items: center;
-        height: 95vh;
+        min-height: 95vh;
     }
     div{
         border-radius: 15px;
         background-color: rgba(213, 213, 243, 0.85);
         text-align: center;
-        width: 40%;
+        width: 50%;
         margin:auto;
         padding:2%;
     }
